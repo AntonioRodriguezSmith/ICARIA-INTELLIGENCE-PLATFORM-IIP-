@@ -1,0 +1,133 @@
+{
+  "roadmap": {
+    "version": "2.0.0",
+    "fecha_actualizacion": "2026-02-13",
+    "objetivo_cobertura": "95%",
+    "cobertura_actual": "40%",
+    
+    "fases": [
+      {
+        "numero": 1,
+        "nombre": "Quick Wins",
+        "prioridad": "CRÍTICA",
+        "duracion_semanas": 4,
+        "periodo": "Semanas 1-4",
+        "icono": "🔴",
+        "tareas": [
+          {
+            "id": "QW-01",
+            "nombre": "Test CF (Capacidad Financiera)",
+            "impacto_casos": "96%",
+            "esfuerzo": "Alto",
+            "roi": "Muy Alto"
+          },
+          {
+            "id": "QW-02",
+            "nombre": "Test TC (Conveniencia)",
+            "impacto_casos": "96%",
+            "esfuerzo": "Alto",
+            "roi": "Muy Alto"
+          },
+          {
+            "id": "QW-03",
+            "nombre": "Saldo DV01 > 1.000€",
+            "impacto_casos": "89%",
+            "esfuerzo": "Medio",
+            "roi": "Muy Alto"
+          }
+        ],
+        "cobertura_objetivo": "85%",
+        "incremento": "+45 puntos"
+      },
+      {
+        "numero": 2,
+        "nombre": "Alta Prioridad",
+        "prioridad": "ALTA",
+        "duracion_semanas": 4,
+        "periodo": "Semanas 5-8",
+        "icono": "🟠",
+        "tareas": [
+          {
+            "id": "AP-01",
+            "nombre": "Autorizado BD",
+            "impacto_casos": "65%",
+            "esfuerzo": "Medio",
+            "roi": "Alto"
+          },
+          {
+            "id": "AP-02",
+            "nombre": "Perfil usuario",
+            "impacto_casos": "58%",
+            "esfuerzo": "Medio",
+            "roi": "Alto"
+          }
+        ],
+        "cobertura_objetivo": "93%",
+        "incremento": "+8 puntos"
+      },
+      {
+        "numero": 3,
+        "nombre": "Media Prioridad",
+        "prioridad": "MEDIA",
+        "duracion_semanas": 4,
+        "periodo": "Semanas 9-12",
+        "icono": "🟡",
+        "tareas": [
+          {
+            "id": "MP-01",
+            "nombre": "Tipo cuenta valores",
+            "impacto_casos": "45%",
+            "esfuerzo": "Bajo",
+            "roi": "Medio"
+          },
+          {
+            "id": "MP-02",
+            "nombre": "Múltiples cuentas",
+            "impacto_casos": "38%",
+            "esfuerzo": "Bajo",
+            "roi": "Medio"
+          }
+        ],
+        "cobertura_objetivo": "95%",
+        "incremento": "+2 puntos"
+      },
+      {
+        "numero": 4,
+        "nombre": "Optimización y Parsers",
+        "prioridad": "BAJA",
+        "duracion_semanas": 4,
+        "periodo": "Semanas 13-16",
+        "icono": "🟢",
+        "tareas": [
+          {
+            "id": "OP-01",
+            "nombre": "Parser Excel",
+            "esfuerzo": "Medio",
+            "roi": "Medio"
+          },
+          {
+            "id": "OP-02",
+            "nombre": "Parser CSV",
+            "esfuerzo": "Bajo",
+            "roi": "Medio"
+          },
+          {
+            "id": "OP-03",
+            "nombre": "Parser JSON",
+            "esfuerzo": "Bajo",
+            "roi": "Medio"
+          }
+        ],
+        "cobertura_objetivo": "95%+",
+        "incremento": "Mantenimiento"
+      }
+    ],
+    
+    "metricas": {
+      "duracion_total_semanas": 16,
+      "incremento_cobertura_total": "55 puntos",
+      "condiciones_a_modelar": 23,
+      "casos_totales": 67
+    }
+  }
+}

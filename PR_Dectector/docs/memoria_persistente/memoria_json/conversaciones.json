@@ -1,0 +1,95 @@
+{
+  "conversaciones": [
+    {
+      "id": "CONV-001",
+      "fecha": "2026-02-13",
+      "tema": "Corrección Crítica KC11",
+      "participantes": ["Antonio Rodriguez Smith", "Cipher"],
+      "tipo": "corrección",
+      "decision": "KC11 NO es una condición ICARIA, es una tabla de relación entre perfiles y códigos de capacidad financiera",
+      "impacto": "Reducción de gaps de 24 a 23",
+      "documentacion": "docs/analisis/correccion-kc11.md"
+    },
+    {
+      "id": "CONV-002",
+      "fecha": "2026-02-13",
+      "tema": "Recepción de Datos Reales",
+      "participantes": ["Manuel Gil", "Antonio Rodriguez Smith"],
+      "tipo": "entrega",
+      "decision": "Recibidos 67 casos completos + 142 condiciones ICARIA",
+      "impacto": "Análisis real vs estimación inicial",
+      "archivos": [
+        "casos_simplificados.md",
+        "CondicionesIcaria.txt"
+      ]
+    },
+    {
+      "id": "CONV-003",
+      "fecha": "2026-02-13",
+      "tema": "Validación del Algoritmo de Matching",
+      "participantes": ["Antonio Rodriguez Smith", "Cipher"],
+      "tipo": "validación",
+      "decision": "Algoritmo de 800 líneas validado con scoring inteligente",
+      "impacto": "Motor de matching completo y funcional",
+      "archivos": [
+        "src/js/core/motor-matching.js"
+      ]
+    },
+    {
+      "id": "CONV-004",
+      "fecha": "2026-02-13",
+      "tema": "Priorización del Roadmap",
+      "participantes": ["Manuel Gil", "Antonio Rodriguez Smith"],
+      "tipo": "planificación",
+      "decision": "Roadmap en 4 fases con Quick Wins primero",
+      "impacto": "Cobertura 40% → 95% en 16 semanas",
+      "documentacion": "docs/roadmap-detallado.md"
+    },
+    {
+      "id": "CONV-005",
+      "fecha": "2026-02-13",
+      "tema": "Identificación de Top 3 Gaps Críticos",
+      "participantes": ["Antonio Rodriguez Smith", "Cipher"],
+      "tipo": "análisis",
+      "decision": "Test CF, Test TC y Saldo DV01 son los gaps más críticos",
+      "impacto": "96%, 96% y 89% de casos afectados respectivamente",
+      "documentacion": "docs/analisis/gaps-criticos.md"
+    }
+  ],
+  "decisiones_arquitectura": [
+    {
+      "id": "ARQ-001",
+      "fecha": "2026-02-13",
+      "decision": "Frontend puro sin backend",
+      "razon": "Simplicidad, rapidez de desarrollo, sin infraestructura",
+      "tecnologias": ["HTML5", "CSS3", "JavaScript ES6+"]
+    },
+    {
+      "id": "ARQ-002",
+      "fecha": "2026-02-13",
+      "decision": "Bootstrap 5 para UI",
+      "razon": "Estándares corporativos Banco Sabadell, componentes predefinidos",
+      "implementacion": "src/assets/css/"
+    },
+    {
+      "id": "ARQ-003",
+      "fecha": "2026-02-13",
+      "decision": "Parsers modulares por tipo de archivo",
+      "razon": "Extensibilidad futura, mantenimiento simplificado",
+      "estado": "MD y TXT activos, Excel/CSV/JSON preparados"
+    },
+    {
+      "id": "ARQ-004",
+      "fecha": "2026-02-13",
+      "decision": "Sistema de memoria en .memoria/",
+      "razon": "Trazabilidad, restauración de contexto con IA",
+      "archivos": [
+        "proyecto.json",
+        "analisis-casos-v2.json",
+        "equipo.json",
+        "roadmap.json",
+        "conversaciones.json"
+      ]
+    }
+  ]
+}

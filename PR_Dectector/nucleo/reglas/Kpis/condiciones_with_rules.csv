@@ -1,0 +1,103 @@
+condition,cases,modeladas,no_modeladas,cobertura_pct,catalog_modelada
+1 cuenta efectivo NO relacionada con cuenta valores,1,0,1,0.0,no
+2 cuentas de valores distintas,1,0,1,0.0,no
+2 cuentas efectivo relacionadas,1,0,1,0.0,no
+2 cuentas relacionadas DV01,1,0,1,0.0,no
+2 titulares,1,0,1,0.0,no
+"3 cuentas efectivo con >1.000€ (CIF titular, NIF autorizado)",1,0,1,0.0,no
+3 titulares (1 CIF + 2 NIF),1,0,1,0.0,no
+Acceso BSO para dar respuesta a OOFFs,2,0,2,0.0,no
+Activar OOFFs (equipo externo),4,0,4,0.0,no
+Ambas con >1.000€ saldo,1,0,1,0.0,no
+Autorizado = Autorizado Banca a Distancia,16,0,16,0.0,no
+Autorizado = NIF en ambas cuentas,1,0,1,0.0,no
+Autorizado cuenta valores = Autorizado Banca a Distancia,1,0,1,0.0,no
+Autorizado cuenta valores = NIF,2,0,2,0.0,no
+Autorizado es Representante Legal menor/incapacitado,1,0,1,0.0,no
+Bloqueado RIC (CIF y autorizado),1,0,1,0.0,no
+Bloqueado según RIC (Reglamento Interno de Conducta),1,0,1,0.0,no
+COMPLEJOS y CONVENIENTE,23,0,23,0.0,no
+COMPLEJOS y CONVENIENTE (CIF y autorizado),24,0,24,0.0,no
+Cantidad de posiciones,1,0,1,0.0,no
+Cuenta valores Activo Bank,1,0,1,0.0,no
+Cuenta valores relaciona con 2 de las 3 efectivo,1,0,1,0.0,no
+Cuentas de efectivo distintas,1,0,1,0.0,no
+ES_PERSONA_FISICA,28,28,0,100.0,yes
+ES_PERSONA_JURIDICA,27,27,0,100.0,yes
+Firma indistinta,1,0,1,0.0,no
+MIFID NO impreso,1,0,1,0.0,no
+Más de 1 cuenta relacionada DV01,1,0,1,0.0,no
+Más de 1 titular,1,0,1,0.0,no
+NIF 1: Perfil 'TR',1,0,1,0.0,no
+NIF 2: Perfil 'SP',1,0,1,0.0,no
+NO CONVENIENTE,1,0,1,0.0,no
+NO CONVENIENTE (CIF y autorizado),1,0,1,0.0,no
+NO existe relación en KC11,1,0,1,0.0,no
+NO existe relación en KC11 (tabla de cuentas relacionadas),1,0,1,0.0,no
+NO tiene Test CF,1,0,1,0.0,no
+NO tiene Test CF (CIF y autorizado),1,0,1,0.0,no
+NO tiene Test TC,1,0,1,0.0,no
+NO tiene Test TC (CIF y autorizado),1,0,1,0.0,no
+NUDO PROPIETARIO (PE1601_CODRELPECO = '0014'),1,0,1,0.0,no
+Otra en divisa diferente EUR con >1.000€,1,0,1,0.0,no
+Otras con >1.000€ saldo,1,0,1,0.0,no
+Otro titular: Perfil 'SP',1,0,1,0.0,no
+Perfil = 'Bolsa10',1,0,1,0.0,no
+Perfil = 'Broker',1,0,1,0.0,no
+Perfil = 'Ebolsa',1,0,1,0.0,no
+Perfil = 'Oro',1,0,1,0.0,no
+Perfil = 'SP',1,0,1,0.0,no
+Perfil = 'TR',1,0,1,0.0,no
+Perfil = 'Trader',1,0,1,0.0,no
+Perfil autorizado = 'Bolsa10',1,0,1,0.0,no
+Perfil autorizado = 'Broker',1,0,1,0.0,no
+Perfil autorizado = 'Ebolsa',1,0,1,0.0,no
+Perfil autorizado = 'Oro',1,0,1,0.0,no
+Perfil autorizado = 'SP',1,0,1,0.0,no
+Perfil autorizado = 'TR',1,0,1,0.0,no
+Perfil usuario = 'SP',1,0,1,0.0,no
+Posiciones en DCHOS,4,0,4,0.0,no
+Posiciones en ISIN específicos,4,0,4,0.0,no
+Posiciones en cartera (ref. Q48),1,0,1,0.0,no
+Resto cuentas: Más de 1 DV01 relacionada,1,0,1,0.0,no
+Saldo DV01 > 1.000€,43,0,43,0.0,no
+Saldo DV01 > 1.000€ en EUROS,1,0,1,0.0,no
+Saldo DV01 > 1.000€ en ambas,1,0,1,0.0,no
+Saldo en cuenta efectivo DV01 > 1.000€,1,0,1,0.0,no
+Sin perfiles contratados,2,0,2,0.0,no
+Sin perfiles contratados (autorizado),2,0,2,0.0,no
+TIENE_CUENTA_VALOR = 0,1,1,0,100.0,yes
+TIENE_CUENTA_VALOR = 1,49,49,0,100.0,yes
+TIENE_CUENTA_VALOR = 2,2,2,0,100.0,yes
+TIENE_CUENTA_VALOR >= 1,1,1,0,100.0,yes
+TIENE_CUENTA_VALOR >= 3,1,1,0,100.0,yes
+TIPO_DE_IDENTIFICACION = 'CIF',27,27,0,100.0,yes
+Test CF,25,0,25,0.0,no
+Test CF (CIF y autorizado),26,0,26,0.0,no
+Test de Capacidad Financiera (CF),1,0,1,0.0,no
+"Tipo cuenta = CUENTA VALORES BS BOLSA 10"" (VA 00005)""",2,0,2,0.0,no
+"Tipo cuenta = EBolsa"" (VA 00026)""",3,0,3,0.0,no
+"Tipo cuenta valores = EBolsa"" (VA 00026)""",1,0,1,0.0,no
+"Tipo cuenta valores ≠ EBolsa"" (VA 00026)""",1,0,1,0.0,no
+"Tipo cuenta ≠ EBolsa"" (VA 00026)""",1,0,1,0.0,no
+Tipos de movimiento VA37,1,0,1,0.0,no
+Titular = CIF,14,0,14,0.0,no
+Titular = CIF en ambas cuentas,1,0,1,0.0,no
+Titular adicional diferente al de cuenta valores,1,0,1,0.0,no
+Titular cuenta valores = CIF,5,0,5,0.0,no
+Todas las DV01 con >1.000€,1,0,1,0.0,no
+USUFRUCTUARIO (PE1601_CODRELPECO = '0005'),1,0,1,0.0,no
+Un solo titular,8,0,8,0.0,no
+Un solo titular CIF,2,0,2,0.0,no
+Un titular: Perfil 'TR',1,0,1,0.0,no
+Una con 0€ saldo,1,0,1,0.0,no
+"Una con 1 titular, otra con varios titulares",1,0,1,0.0,no
+Una cuenta: Saldo DV01 > 1.000€ en EUROS,1,0,1,0.0,no
+Una en EUROS con >1.000€,1,0,1,0.0,no
+Usuario Activo Bank (Q08),1,0,1,0.0,no
+VALORES_TIPO_CLASIFICACION_MIFID = 'C',1,1,0,100.0,yes
+VALORES_TIPO_CLASIFICACION_MIFID = 'M',52,52,0,100.0,yes
+VALORES_TIPO_CLASIFICACION_MIFID = 'P',2,2,0,100.0,yes
+productos COMPLEJOS y CONVENIENTE,1,0,1,0.0,no
+productos NO COMPLEJOS y CONVENIENTE,1,0,1,0.0,no
+productos NO COMPLEJOS y CONVENIENTE (CIF y autorizado),1,0,1,0.0,no

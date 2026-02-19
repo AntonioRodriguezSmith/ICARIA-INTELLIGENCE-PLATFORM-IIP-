@@ -1,0 +1,7 @@
+indicator,estado,cases,cond_total,modeladas,no_modeladas,cobertura_pct
+conditions_by_state,PARCIAL,34,268,119,149,44.4
+conditions_by_state,NO_MODELADA,21,206,72,134,35.0
+cases_distribution,PARCIAL,34,,,,50.7
+cases_distribution,NO_MODELADA,21,,,,31.3
+cases_distribution,SIN_DATOS,11,,,,16.4
+cases_distribution,NO_APLICABLE,1,,,,1.5

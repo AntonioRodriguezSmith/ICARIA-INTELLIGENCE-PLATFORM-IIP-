@@ -1,0 +1,18 @@
+agent:
+  name: icaria
+  version: "0.1"
+  session_log: ../memoria_chat.md
+  rules_path: ../reglas
+  cases_path: ../casos
+  settings:
+    verbosity: info
+    auto_register_sessions: true
+    # Rule engine settings
+    enable_rules: true
+    rules_format: markdown
+    auto_reload_rules: true
+    rule_evaluator: python
+
+mcp:
+  host: localhost
+  port: 8080

@@ -1,0 +1,632 @@
+/**
+ * ICARIA Intelligence Platform - Estilos Personalizados
+ * 
+ * @version 2.0.0
+ * @author Antonio Rodriguez Smith - DXC Technology
+ * @client Banco Sabadell S.A. - TDM Department
+ * @confidential
+ */
+
+/* ========================================
+   VARIABLES CSS - Colores Corporativos Banco Sabadell
+   ======================================== */
+:root {
+    /* Colores principales Banco Sabadell */
+    --sabadell-azul-principal: #0072CE;
+    --sabadell-azul-oscuro: #003D6B;
+    --sabadell-azul-claro: #4DA6E8;
+    --sabadell-verde: #00A651;
+    --sabadell-naranja: #FF8200;
+    --sabadell-rojo: #E31E24;
+    --sabadell-gris-claro: #F5F5F5;
+    --sabadell-gris-oscuro: #333333;
+    
+    /* Estados de cobertura */
+    --color-modelada: var(--sabadell-verde);
+    --color-parcial: var(--sabadell-naranja);
+    --color-no-modelada: var(--sabadell-rojo);
+    
+    /* Colores de fondo */
+    --fondo-principal: #FFFFFF;
+    --fondo-secundario: var(--sabadell-gris-claro);
+    --fondo-sidebar: var(--sabadell-azul-oscuro);
+    
+    /* Texto */
+    --texto-principal: var(--sabadell-gris-oscuro);
+    --texto-secundario: #666666;
+    --texto-claro: #FFFFFF;
+    
+    /* Bordes y sombras */
+    --border-radius: 8px;
+    --border-radius-sm: 4px;
+    --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --box-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+    
+    /* Transiciones */
+    --transition-speed: 0.3s;
+}
+
+/* ========================================
+   ESTILOS GLOBALES
+   ======================================== */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--texto-principal);
+    background-color: var(--fondo-secundario);
+}
+
+/* ========================================
+   HEADER
+   ======================================== */
+.header-principal {
+    background: linear-gradient(135deg, var(--sabadell-azul-oscuro) 0%, var(--sabadell-azul-principal) 100%);
+    color: var(--texto-claro);
+    padding: 1.5rem 0;
+    box-shadow: var(--box-shadow);
+}
+
+.header-principal h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header-principal .version-badge {
+    background-color: var(--sabadell-verde);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.875rem;
+}
+
+.header-principal .confidencial-badge {
+    background-color: var(--sabadell-rojo);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.875rem;
+}
+
+/* ========================================
+   NAVEGACIÓN / TABS
+   ======================================== */
+.nav-tabs {
+    border-bottom: 2px solid var(--sabadell-azul-principal);
+    background-color: var(--fondo-principal);
+    padding: 0.5rem 1rem 0;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.nav-tabs .nav-link {
+    color: var(--texto-principal);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    transition: all var(--transition-speed);
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: var(--sabadell-gris-claro);
+    color: var(--sabadell-azul-principal);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--sabadell-azul-principal);
+    color: var(--texto-claro);
+    border-bottom: 3px solid var(--sabadell-verde);
+}
+
+.nav-tabs .nav-link i {
+    margin-right: 0.5rem;
+}
+
+/* ========================================
+   CARDS Y CONTENEDORES
+   ======================================== */
+.card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-lg);
+}
+
+.card-header {
+    background: linear-gradient(135deg, var(--sabadell-azul-principal) 0%, var(--sabadell-azul-claro) 100%);
+    color: var(--texto-claro);
+    font-weight: 600;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    padding: 1rem 1.25rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Cards de métricas */
+.metric-card {
+    background: linear-gradient(135deg, var(--fondo-principal) 0%, var(--sabadell-gris-claro) 100%);
+    border-left: 4px solid var(--sabadell-azul-principal);
+}
+
+.metric-card .metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--sabadell-azul-principal);
+}
+
+.metric-card .metric-label {
+    font-size: 0.875rem;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ========================================
+   BOTONES
+   ======================================== */
+.btn {
+    border-radius: var(--border-radius-sm);
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    transition: all var(--transition-speed);
+}
+
+.btn-primary {
+    background-color: var(--sabadell-azul-principal);
+    border-color: var(--sabadell-azul-principal);
+}
+
+.btn-primary:hover {
+    background-color: var(--sabadell-azul-oscuro);
+    border-color: var(--sabadell-azul-oscuro);
+    transform: translateY(-1px);
+    box-shadow: var(--box-shadow);
+}
+
+.btn-success {
+    background-color: var(--sabadell-verde);
+    border-color: var(--sabadell-verde);
+}
+
+.btn-warning {
+    background-color: var(--sabadell-naranja);
+    border-color: var(--sabadell-naranja);
+    color: var(--texto-claro);
+}
+
+.btn-danger {
+    background-color: var(--sabadell-rojo);
+    border-color: var(--sabadell-rojo);
+}
+
+/* ========================================
+   BADGES
+   ======================================== */
+.badge {
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.badge-modelada {
+    background-color: var(--color-modelada);
+    color: var(--texto-claro);
+}
+
+.badge-parcial {
+    background-color: var(--color-parcial);
+    color: var(--texto-claro);
+}
+
+.badge-no-modelada {
+    background-color: var(--color-no-modelada);
+    color: var(--texto-claro);
+}
+
+/* ========================================
+   TABLAS
+   ======================================== */
+.table {
+    background-color: var(--fondo-principal);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.table thead {
+    background: linear-gradient(135deg, var(--sabadell-azul-oscuro) 0%, var(--sabadell-azul-principal) 100%);
+    color: var(--texto-claro);
+}
+
+.table thead th {
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr {
+    transition: background-color var(--transition-speed);
+}
+
+.table tbody tr:hover {
+    background-color: var(--sabadell-gris-claro);
+}
+
+.table-success {
+    background-color: rgba(0, 166, 81, 0.1);
+}
+
+.table-warning {
+    background-color: rgba(255, 130, 0, 0.1);
+}
+
+.table-danger {
+    background-color: rgba(227, 30, 36, 0.1);
+}
+
+/* DataTables personalización */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--sabadell-azul-principal) !important;
+    border-color: var(--sabadell-azul-principal) !important;
+    color: var(--texto-claro) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: var(--sabadell-azul-claro) !important;
+    border-color: var(--sabadell-azul-claro) !important;
+    color: var(--texto-claro) !important;
+}
+
+/* ========================================
+   FORMULARIOS
+   ======================================== */
+.form-control, .form-select {
+    border: 2px solid var(--sabadell-gris-claro);
+    border-radius: var(--border-radius-sm);
+    padding: 0.75rem 1rem;
+    transition: border-color var(--transition-speed);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--sabadell-azul-principal);
+    box-shadow: 0 0 0 0.2rem rgba(0, 114, 206, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--texto-principal);
+    margin-bottom: 0.5rem;
+}
+
+/* File upload personalizado */
+.file-upload-area {
+    border: 2px dashed var(--sabadell-azul-claro);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--fondo-principal);
+    transition: all var(--transition-speed);
+    cursor: pointer;
+}
+
+.file-upload-area:hover {
+    background-color: var(--sabadell-gris-claro);
+    border-color: var(--sabadell-azul-principal);
+}
+
+.file-upload-area i {
+    font-size: 3rem;
+    color: var(--sabadell-azul-principal);
+    margin-bottom: 1rem;
+}
+
+/* ========================================
+   ALERTAS
+   ======================================== */
+.alert {
+    border-radius: var(--border-radius);
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+.alert-success {
+    background-color: rgba(0, 166, 81, 0.1);
+    border-left: 4px solid var(--sabadell-verde);
+    color: var(--sabadell-verde);
+}
+
+.alert-warning {
+    background-color: rgba(255, 130, 0, 0.1);
+    border-left: 4px solid var(--sabadell-naranja);
+    color: #b35f00;
+}
+
+.alert-danger {
+    background-color: rgba(227, 30, 36, 0.1);
+    border-left: 4px solid var(--sabadell-rojo);
+    color: var(--sabadell-rojo);
+}
+
+.alert-info {
+    background-color: rgba(0, 114, 206, 0.1);
+    border-left: 4px solid var(--sabadell-azul-principal);
+    color: var(--sabadell-azul-oscuro);
+}
+
+/* ========================================
+   GRÁFICOS
+   ======================================== */
+.chart-container {
+    position: relative;
+    height: 300px;
+    padding: 1rem;
+    background-color: var(--fondo-principal);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+/* ========================================
+   LOADING / SPINNER
+   ======================================== */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.spinner-border {
+    color: var(--sabadell-azul-principal);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+.footer-principal {
+    background-color: var(--sabadell-gris-oscuro);
+    color: var(--texto-claro);
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer-principal a {
+    color: var(--sabadell-azul-claro);
+    text-decoration: none;
+    transition: color var(--transition-speed);
+}
+
+.footer-principal a:hover {
+    color: var(--sabadell-verde);
+}
+
+/* ========================================
+   TOAST NOTIFICATIONS
+   ======================================== */
+.toast-container {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+    z-index: 9999;
+}
+
+.toast {
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-lg);
+}
+
+/* ========================================
+   SIDEBAR (Si se usa)
+   ======================================== */
+.sidebar {
+    background-color: var(--fondo-sidebar);
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius-sm);
+    margin-bottom: 0.5rem;
+    transition: all var(--transition-speed);
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--texto-claro);
+}
+
+.sidebar .nav-link.active {
+    background-color: var(--sabadell-azul-principal);
+    color: var(--texto-claro);
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media (max-width: 768px) {
+    .header-principal h1 {
+        font-size: 1.25rem;
+    }
+    
+    .nav-tabs .nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    .metric-card .metric-value {
+        font-size: 2rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .chart-container {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-principal h1 {
+        font-size: 1rem;
+    }
+    
+    .nav-tabs .nav-link {
+        padding: 0.5rem;
+        font-size: 0.75rem;
+    }
+    
+    .nav-tabs .nav-link i {
+        margin-right: 0.25rem;
+    }
+    
+    .btn {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.875rem;
+    }
+    
+    .metric-card .metric-value {
+        font-size: 1.5rem;
+    }
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+@media print {
+    .nav-tabs,
+    .btn,
+    .header-principal,
+    .footer-principal,
+    .sidebar {
+        display: none !important;
+    }
+    
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        page-break-inside: avoid;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    .table {
+        font-size: 0.875rem;
+    }
+    
+    .chart-container {
+        page-break-inside: avoid;
+    }
+}
+
+/* ========================================
+   UTILIDADES ADICIONALES
+   ======================================== */
+.text-sabadell-azul {
+    color: var(--sabadell-azul-principal) !important;
+}
+
+.bg-sabadell-azul {
+    background-color: var(--sabadell-azul-principal) !important;
+}
+
+.border-sabadell-azul {
+    border-color: var(--sabadell-azul-principal) !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.transition-all {
+    transition: all var(--transition-speed);
+}
+
+/* ========================================
+   ANIMACIONES
+   ======================================== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* ========================================
+   ACCESIBILIDAD
+   ======================================== */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+:focus-visible {
+    outline: 2px solid var(--sabadell-azul-principal);
+    outline-offset: 2px;
+}
+
+/* Alto contraste para accesibilidad */
+@media (prefers-contrast: high) {
+    :root {
+        --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        --box-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+    
+    .btn {
+        border-width: 2px;
+    }
+    
+    .card {
+        border: 2px solid var(--sabadell-gris-oscuro);
+    }
+}
+
+/* Reducir movimiento para usuarios sensibles */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
