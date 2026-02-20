@@ -1,4 +1,11 @@
+
 # Checklist del entorno — Spaces + Agent + Docker + MCP + VSCode
+
+## Índice
+
+- [Imprescindibles](#imprescindibles)
+- [Herramientas recomendadas](#herramientas-recomendadas)
+- [Regenerar KPIs localmente](#regenerar-kpis-localmente)
 
 [Volver a la memoria del agente ICARIA](./MEMORIA_AGENTE_ICARIA.md)
 

@@ -12,9 +12,12 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Integración con HashiCorp Vault para gestión de secretos.
 - Scripts automatizados para despliegue con Docker Compose.
 
+
 ### Changed
 - Mejoras en la documentación técnica.
 - Ajustes en la estructura del proyecto para mayor claridad.
+- Documentación principal y técnica actualizada: README.md, docs, checklists y guías ahora incluyen índice y reflejan la estructura y dependencias reales.
+- .gitignore actualizado para permitir tsconfig.json en subcarpetas.
 
 ### Fixed
 - Corrección de errores menores en los scripts de pre-commit.

@@ -1,4 +1,11 @@
+
 # Checklist Equipo (Detector)
+
+## Índice
+
+- [Tareas iniciales](#tareas-iniciales)
+- [Herramientas recomendadas](#herramientas-recomendadas)
+- [Pasos operativos recomendados para regenerar KPIs y validar reglas](#pasos-operativos-recomendados-para-regenerar-kpis-y-validar-reglas)
 
 [Volver a la memoria del agente ICARIA](./MEMORIA_AGENTE_ICARIA.md)
 

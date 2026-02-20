@@ -2,21 +2,21 @@
 
 Esta guía detalla los pasos necesarios para integrar las herramientas y programas recomendados en el proyecto ICARIA, incluyendo los documentos y archivos requeridos para su correcta configuración.
 
----
+----
 
-**Índice**
+## Índice
 
-1. [Swagger/OpenAPI](#1-swaggeropenapi)
-2. [SonarQube](#2-sonarqube)
-3. [Grafana y Prometheus](#3-grafana-y-prometheus)
-4. [Vault (HashiCorp)](#4-vault-hashicorp)
-5. [Redis o RabbitMQ](#5-redis-o-rabbitmq)
-6. [Elastic Stack (ELK)](#6-elastic-stack-elk)
-7. [Terraform o Pulumi](#7-terraform-o-pulumi)
-8. [Nginx o Traefik](#8-nginx-o-traefik)
-9. [Documentos y Archivos Requeridos](#documentos-y-archivos-requeridos)
+- [Swagger/OpenAPI](#1-swaggeropenapi)
+- [SonarQube](#2-sonarqube)
+- [Grafana y Prometheus](#3-grafana-y-prometheus)
+- [Vault (HashiCorp)](#4-vault-hashicorp)
+- [Redis o RabbitMQ](#5-redis-o-rabbitmq)
+- [Elastic Stack (ELK)](#6-elastic-stack-elk)
+- [Terraform o Pulumi](#7-terraform-o-pulumi)
+- [Nginx o Traefik](#8-nginx-o-traefik)
+- [Documentos y Archivos Requeridos](#documentos-y-archivos-requeridos)
 
----
+----
 
 ## 1. **Swagger/OpenAPI**
 

@@ -1,4 +1,14 @@
+
 # MEMORIA DEL AGENTE ICARIA
+
+## Índice
+
+- [Propósito y alcance](#1-propósito-y-alcance)
+- [Tecnologías, infra y herramientas imprescindibles](#2-tecnologías-infra-y-herramientas-imprescindibles)
+- [Flujo entre VS Code y GitHub Space](#3-flujo-entre-vs-code-y-github-space)
+- [Roles y responsabilidades](#4-roles-y-responsabilidades)
+- [Instrucciones de actualización y control de calidad](#5-instrucciones-de-actualización-y-control-de-calidad)
+- [Frase normativa final](#6-frase-normativa-final)
 
 **Nota importante:** Asegúrate de descargar e instalar los programas necesarios mencionados en la [Guía de Integración de Programas y Herramientas](./Guia_Integracion_Programas.md). Esto incluye herramientas como Swagger/OpenAPI, SonarQube, Grafana, Prometheus, entre otros.
 

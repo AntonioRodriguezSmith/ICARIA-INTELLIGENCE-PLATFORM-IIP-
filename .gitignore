@@ -31,3 +31,6 @@ __pycache__/
 !CONTRIBUTING.md
 !CHANGELOG.md
 !docs/**
+
+# Asegurarse de que todos los tsconfig.json sí se suban
+!**/tsconfig.json
