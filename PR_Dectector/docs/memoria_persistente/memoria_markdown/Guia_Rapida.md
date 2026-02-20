@@ -52,6 +52,10 @@ Además de las herramientas básicas, se recomienda integrar las siguientes para
 2. **SonarQube**
    - Realiza análisis estático del código para detectar problemas de calidad y seguridad.
    - Garantiza un código limpio y mantenible.
+   - Ejecuta análisis de calidad de código:
+     ```bash
+     sonar-scanner
+     ```
 
 3. **Grafana y Prometheus**
    - Monitorea el rendimiento del MCP Server y los contenedores.
@@ -72,6 +76,11 @@ Además de las herramientas básicas, se recomienda integrar las siguientes para
 7. **Terraform o Pulumi**
    - Automatiza la provisión de infraestructura como código (IaC).
    - Asegura consistencia y escalabilidad en entornos de desarrollo, prueba y producción.
+   - Inicializa y aplica configuraciones de infraestructura:
+     ```bash
+     terraform init
+     terraform apply
+     ```
 
 8. **Nginx o Traefik**
    - Optimiza el balanceo de carga y el enrutamiento entre servicios.

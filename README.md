@@ -21,9 +21,9 @@ ICARIA Intelligence Platform es una solución avanzada para el análisis y valid
 
 ## ✅ Lista de Tareas Pendientes
 
-- [ ] Instalar dependencias de Python desde `requirements.txt`
-- [ ] Configurar el entorno virtual para Python
-- [ ] Instalar y configurar pre-commit con `.pre-commit-config.yaml`
+- [x] Instalar dependencias de Python desde `requirements.txt`
+- [x] Configurar el entorno virtual para Python
+- [x] Instalar y configurar pre-commit con `.pre-commit-config.yaml`
 - [ ] Verificar y ajustar rutas en scripts para la nueva estructura del proyecto
 - [ ] Configurar Docker utilizando el `Dockerfile` generado
 - [ ] Probar el despliegue local con Docker Compose

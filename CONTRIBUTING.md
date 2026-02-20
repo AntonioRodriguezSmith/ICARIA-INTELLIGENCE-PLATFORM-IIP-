@@ -49,6 +49,16 @@ Crear Pull Request con:
 - Descripción detallada
 - Referencias a issues si aplica
 
+### 5. Verificación de Estilo y Calidad
+
+Antes de realizar un commit, asegúrate de ejecutar las herramientas de análisis estático:
+
+```bash
+git pre-commit run --all-files
+```
+
+Esto verificará el formato del código con Black, el orden de importaciones con isort y posibles errores con pylint.
+
 ## Estándares de Código
 
 ### JavaScript
@@ -108,3 +118,36 @@ Todo código debe ser revisado por:
 ## Contacto
 
 Dudas o consultas: icaria-platform@dxc.com
+
+---
+
+# Guía para contribuir
+
+Gracias por tu interés en contribuir a este proyecto. Sigue estas pautas para garantizar un proceso de contribución eficiente y organizado.
+
+## Cómo contribuir
+
+1. **Fork el repositorio**: Crea una copia del repositorio en tu cuenta de GitHub.
+2. **Clona el repositorio**: Descarga el repositorio a tu máquina local.
+   ```bash
+   git clone https://github.com/tu-usuario/ICARIA-INTELLIGENCE-PLATFORM.git
+   ```
+3. **Crea una rama**: Trabaja en una nueva rama para tus cambios.
+   ```bash
+   git checkout -b nombre-de-tu-rama
+   ```
+4. **Realiza cambios**: Asegúrate de seguir las convenciones de codificación del proyecto.
+5. **Confirma tus cambios**: Escribe mensajes de commit claros y descriptivos.
+   ```bash
+   git commit -m "Descripción de los cambios"
+   ```
+6. **Envía un Pull Request**: Sube tus cambios y crea un Pull Request en el repositorio original.
+
+## Reglas de estilo
+- Sigue las convenciones de codificación definidas en el proyecto.
+- Asegúrate de que tu código pase las pruebas existentes.
+
+## Reportar problemas
+Si encuentras un error o tienes una sugerencia, abre un Issue en el repositorio.
+
+¡Gracias por tu contribución!
