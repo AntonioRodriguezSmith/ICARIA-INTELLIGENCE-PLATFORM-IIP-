@@ -2,35 +2,32 @@
 
 ## Índice
 
+<<<<<<< HEAD
 - [Introducción](#introducción)
 - [Condiciones Modeladas](#condiciones-modeladas)
    - [Estructura de las Condiciones](#estructura-de-las-condiciones)
    - [Ejemplos de Condiciones](#ejemplos-de-condiciones)
 - [Funciones Principales](#funciones-principales)
-   - [parseoCasosBroker](#parseocasosbroker)
-   - [parseoCondicionesIcaria](#parseocondicionesicaria)
-   - [matchingInteligente](#matchinginteligente)
-   - [calculoScoring](#calculoscoring)
-   - [analizarCasos](#analizarcasos)
-   - [generacionReporte](#generacionreporte)
+- [Introducción](#introducción)
+- [Condiciones Modeladas](#condiciones-modeladas)
+  - [Estructura de las Condiciones](#estructura-de-las-condiciones)
+  - [Ejemplos de Condiciones](#ejemplos-de-condiciones)
+- [Funciones Principales](#funciones-principales)
+  - [parseoCasosBroker](#parseocasosbroker)
+  - [parseoCondicionesIcaria](#parseocondicionesicaria)
+  - [matchingInteligente](#matchinginteligente)
+  - [calculoScoring](#calculoscoring)
+  - [analizarCasos](#analizarcasos)
+  - [generacionReporte](#generacionreporte)
 - [Algoritmo de Matching](#algoritmo-de-matching)
-   - [Patrones y Keywords](#patrones-y-keywords)
-   - [Similitud de Texto](#similitud-de-texto)
+  - [Patrones y Keywords](#patrones-y-keywords)
+  - [Similitud de Texto](#similitud-de-texto)
 - [Generación de Reportes](#generación-de-reportes)
 - [Estadísticas y Métricas](#estadísticas-y-métricas)
 - [Ejemplo de Uso](#ejemplo-de-uso)
 - [Errores Comunes y Soluciones](#errores-comunes-y-soluciones)
 
-----
-
-## Introducción
-
-El motor de matching inteligente es el núcleo del sistema de análisis de casos Broker contra condiciones ICARIA. Utiliza algoritmos avanzados de coincidencia, incluyendo patrones regex, búsqueda por palabras clave y similitud de texto, para determinar la cobertura de cada caso.
-
 ---
-
-## Condiciones Modeladas
-
 ### Estructura de las Condiciones
 Cada condición modelada incluye los siguientes atributos:
 
@@ -161,4 +158,8 @@ console.log(generacionReporte(reporte));
 
 ---
 
+<<<<<<< HEAD
 Esta guía proporciona una referencia completa para entender y utilizar el motor de matching inteligente. Para más detalles, consulta el código fuente o contacta al equipo de desarrollo.
+=======
+Esta guía proporciona una referencia completa para entender y utilizar el motor de matching inteligente. Para más detalles, consulta el código fuente o contacta al equipo de desarrollo.
+>>>>>>> main

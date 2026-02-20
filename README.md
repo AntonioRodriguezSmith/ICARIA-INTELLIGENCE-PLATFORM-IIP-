@@ -35,7 +35,7 @@ ICARIA Intelligence Platform es una solución avanzada para el análisis y valid
 ## Estructura del Proyecto
 
 ```
-PR_Dectector/
+ICARIA-INTELLIGENCE-PLATFORM/PR_Detector
 │
 ├── docs/
 │   ├── analisis/                  # Documentación de algoritmos y flujos
@@ -135,6 +135,39 @@ PR_Dectector/
 - [Guía de Integración de Programas](PR_Dectector/docs/memoria_persistente/memoria_markdown/Guia_Integracion_Programas.md)
 - [Checklist de Entorno](PR_Dectector/docs/memoria_persistente/memoria_markdown/ENV_CHECKLIST.md)
 - [Checklist de Equipo](PR_Dectector/docs/memoria_persistente/memoria_markdown/checklist-equipo.md)
+
+---
+
+
+---
+
+## Pruebas automáticas (Testing)
+
+El proyecto utiliza [Mocha](https://mochajs.org/) como framework de testing para Node.js.
+
+### Ejecutar los tests
+
+1. Asegúrate de tener las dependencias instaladas:
+    ```bash
+    npm install
+    ```
+2. Ejecuta todos los tests:
+    ```bash
+    npm test
+    ```
+
+Los tests se encuentran en la carpeta `/test` y cualquier archivo con extensión `.test.js` será ejecutado automáticamente.
+
+Ejemplo de test:
+```js
+// test/example.test.js
+const assert = require('assert');
+describe('Demo Test', function() {
+   it('should return true', function() {
+      assert.strictEqual(true, true);
+   });
+});
+```
 
 ---
 

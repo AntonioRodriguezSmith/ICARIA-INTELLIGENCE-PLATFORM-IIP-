@@ -26,6 +26,9 @@ __pycache__/
 *.env
 *.local
 
+# Ignorar carpeta de conversación
+.conversacion/
+
 # Essential documentation files to include
 !README.md
 !CONTRIBUTING.md
@@ -34,3 +37,7 @@ __pycache__/
 
 # Asegurarse de que todos los tsconfig.json sí se suban
 !**/tsconfig.json
+# Ignorar archivos de conversación eliminados
+fri_feb_20_2026_crear_un_detector_de_texto_en.md
+fri_feb_20_2026_crear_un_detector_de_texto_en.zip
+thu_feb_19_2026_crear_un_detector_de_texto_en.json
