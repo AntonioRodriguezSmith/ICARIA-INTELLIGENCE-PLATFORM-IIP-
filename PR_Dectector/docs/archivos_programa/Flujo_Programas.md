@@ -138,4 +138,28 @@ Artefactos generados:
 
 ---
 
+## 9. **Integración con Herramientas Externas**
+
+1. **HashiCorp Vault**:
+   - Configuración para gestionar secretos de forma segura.
+   ```bash
+   export VAULT_ADDR='http://127.0.0.1:8200'
+   export VAULT_TOKEN='s.mytoken'
+   ```
+
+2. **SonarQube**:
+   - Análisis de calidad de código.
+   ```bash
+   sonar-scanner
+   ```
+
+3. **Terraform**:
+   - Provisión de infraestructura como código.
+   ```bash
+   terraform init
+   terraform apply
+   ```
+
+---
+
 **Nota:** Este flujo debe revisarse y actualizarse periódicamente para reflejar cambios en el proyecto.

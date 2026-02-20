@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/AntonioRodriguezSmith/ICARIA-INTELLIGENCE-PLATFORM-IIP-black
+    rev: 23.9.2
+    hooks:
+      - id: black
+        additional_dependencies: []
+        files: PR_Dectector/archivos_programa/.*
+  - repo: https://github.com/AntonioRodriguezSmith/ICARIA-INTELLIGENCE-PLATFORM-IIP-isort
+    rev: 5.12.1
+    hooks:
+      - id: isort
+        files: PR_Dectector/archivos_programa/.*
+  - repo: https://github.com/AntonioRodriguezSmith/ICARIA-INTELLIGENCE-PLATFORM-IIP-pylint
+    rev: v2.17.6
+    hooks:
+      - id: pylint
+        files: PR_Dectector/archivos_programa/.*

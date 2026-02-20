@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python dependencies
+__pycache__/
+*.py[cod]
+
+# Docker
+*.env
+*.local
+
+# Essential documentation files to include
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!docs/**

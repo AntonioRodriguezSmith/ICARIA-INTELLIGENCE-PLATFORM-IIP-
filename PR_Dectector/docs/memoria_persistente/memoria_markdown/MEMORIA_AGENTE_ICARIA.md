@@ -34,6 +34,8 @@ MEMORIA_AGENTE_ICARIA.md es el archivo central donde:
 - **Node.js/NPM**: Instalación y gestión de dependencias principales, scripts de validación y utilidades de integración entre la lógica de negocio y la memoria.
 - **Postman**: Herramienta para testeo y validación de endpoints MCP obligatoria para QA.
 - **GitHub Actions**: Automatización de CI/CD, backups de memoria, generación de releases.
+- **Terraform**: Herramienta para la provisión de infraestructura como código.
+- **SonarQube**: Análisis de calidad de código para garantizar estándares altos.
 
 ---
 
