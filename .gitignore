@@ -26,6 +26,9 @@ __pycache__/
 *.env
 *.local
 
+# Ignorar carpeta de conversación
+.conversacion/
+
 # Essential documentation files to include
 !README.md
 !CONTRIBUTING.md
