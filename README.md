@@ -24,9 +24,9 @@ ICARIA Intelligence Platform es una solución avanzada para el análisis y valid
 - [x] Instalar dependencias de Python desde `requirements.txt`
 - [x] Configurar el entorno virtual para Python
 - [x] Instalar y configurar pre-commit con `.pre-commit-config.yaml`
-- [ ] Verificar y ajustar rutas en scripts para la nueva estructura del proyecto
-- [ ] Configurar Docker utilizando el `Dockerfile` generado
-- [ ] Probar el despliegue local con Docker Compose
+- [ ] Configurar automatización para subidas al repositorio
+- [ ] Revisar nuevos programas para implementar
+- [ ] Implementar cambios después de organizar el repositorio
 - [ ] Validar la configuración de las herramientas de análisis estático (Black, isort, pylint)
 - [ ] Actualizar la documentación técnica en `/docs` para reflejar los cambios recientes
 - [ ] Revisar y probar los scripts en `scripts/` para asegurar su funcionalidad
@@ -37,7 +37,7 @@ ICARIA Intelligence Platform es una solución avanzada para el análisis y valid
 ## 🗂 Estructura del Proyecto
 
 ```
-PR_Dectector/
+ICARIA-INTELLIGENCE-PLATFORM/PR_Detector
 │
 ├── docs/
 │   ├── agents/                # Scripts y herramientas auxiliares
