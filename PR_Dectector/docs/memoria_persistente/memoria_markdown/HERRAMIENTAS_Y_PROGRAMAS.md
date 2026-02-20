@@ -47,11 +47,13 @@ Estas herramientas son recomendadas para complementar y optimizar el flujo de tr
 
 1. **Swagger/OpenAPI**  
    - **Por qué**: Para documentar y probar las APIs del MCP Server.  
-   - **Impacto**: Mejora la colaboración y facilita las pruebas de las APIs.
+   - **Impacto**: Mejora la colaboración y facilita las pruebas de las APIs.  
+   - **Estado**: ✅ Ya instalada.
 
 2. **SonarQube**  
    - **Por qué**: Para análisis estático del código y detección de problemas de calidad y seguridad.  
-   - **Impacto**: Garantiza un código limpio y seguro.
+   - **Impacto**: Garantiza un código limpio y seguro.  
+   - **Estado**: ✅ Ya instalada.
 
 3. **Grafana y Prometheus**  
    - **Por qué**: Para monitorear el rendimiento del MCP Server y los contenedores.  
@@ -63,7 +65,8 @@ Estas herramientas son recomendadas para complementar y optimizar el flujo de tr
 
 5. **Vault (HashiCorp)**  
    - **Por qué**: Para gestionar de forma segura las credenciales y secretos necesarios para el proyecto.  
-   - **Impacto**: Refuerza la seguridad del sistema.
+   - **Impacto**: Refuerza la seguridad del sistema.  
+   - **Estado**: ✅ Ya instalada.
 
 6. **Elastic Stack (ELK)**  
    - **Por qué**: Para centralizar y analizar logs del MCP Server y otros servicios.  
@@ -71,7 +74,8 @@ Estas herramientas son recomendadas para complementar y optimizar el flujo de tr
 
 7. **Terraform o Pulumi**  
    - **Por qué**: Para gestionar la infraestructura como código (IaC) y automatizar la provisión de recursos.  
-   - **Impacto**: Asegura consistencia y escalabilidad en entornos de desarrollo, prueba y producción.
+   - **Impacto**: Asegura consistencia y escalabilidad en entornos de desarrollo, prueba y producción.  
+   - **Estado**: ✅ Ya instalada.
 
 8. **Nginx o Traefik**  
    - **Por qué**: Para balanceo de carga y enrutamiento entre servicios.  
