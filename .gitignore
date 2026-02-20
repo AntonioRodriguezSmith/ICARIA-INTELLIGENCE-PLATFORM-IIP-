@@ -34,3 +34,8 @@ __pycache__/
 !CONTRIBUTING.md
 !CHANGELOG.md
 !docs/**
+
+# Ignorar archivos de conversación eliminados
+fri_feb_20_2026_crear_un_detector_de_texto_en.md
+fri_feb_20_2026_crear_un_detector_de_texto_en.zip
+thu_feb_19_2026_crear_un_detector_de_texto_en.json
