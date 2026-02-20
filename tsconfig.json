@@ -7,6 +7,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*",
+    "PR_Dectector/src/**/*"
+  ],
   "exclude": ["node_modules"]
 }
