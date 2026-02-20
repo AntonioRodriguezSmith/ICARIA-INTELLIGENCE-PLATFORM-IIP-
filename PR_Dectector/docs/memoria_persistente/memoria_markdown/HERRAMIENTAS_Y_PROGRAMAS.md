@@ -1,4 +1,15 @@
+
 # Herramientas y Programas del Proyecto ICARIA
+
+## Índice
+
+- [Herramientas y Programas Actuales](#herramientas-y-programas-actuales)
+- [Herramientas Esenciales que Faltan](#herramientas-esenciales-que-faltan)
+- [Prioridad de Integración](#prioridad-de-integración)
+- [Pasos de Integración](#pasos-de-integración)
+- [Casos de Uso](#casos-de-uso)
+- [Mantenimiento y Actualización](#mantenimiento-y-actualización)
+- [Resumen](#resumen)
 
 [Volver a la memoria del agente ICARIA](./MEMORIA_AGENTE_ICARIA.md)
 

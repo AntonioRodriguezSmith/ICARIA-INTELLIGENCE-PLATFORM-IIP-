@@ -1,4 +1,12 @@
+
 # Guía Rápida (Detector)
+
+## Índice
+
+- [Objetivo](#objetivo)
+- [Pasos rápidos](#pasos-rápidos)
+- [Herramientas recomendadas para optimizar el flujo de trabajo](#herramientas-recomendadas-para-optimizar-el-flujo-de-trabajo)
+- [Comandos útiles para tareas de KPIs y validación](#comandos-útiles-para-tareas-de-kpis-y-validación)
 
 [Volver a la memoria del agente ICARIA](./MEMORIA_AGENTE_ICARIA.md)
 

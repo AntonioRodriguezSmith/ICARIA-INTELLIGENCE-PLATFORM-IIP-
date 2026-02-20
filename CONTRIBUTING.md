@@ -1,4 +1,18 @@
+
 # 🤝 Guía de Contribución
+
+## Índice
+
+- [Importante](#️-importante)
+- [Proceso de Contribución](#proceso-de-contribución)
+- [Estándares de Código](#estándares-de-código)
+- [Estructura de Archivos](#estructura-de-archivos)
+- [Documentación](#documentación)
+- [Testing](#testing)
+- [Revisión de Código](#revisión-de-código)
+- [Guía para contribuir](#guía-para-contribuir)
+- [Reglas de estilo](#reglas-de-estilo)
+- [Reportar problemas](#reportar-problemas)
 
 ## ⚠️ Importante
 

@@ -1,3 +1,4 @@
+
 {
   "compilerOptions": {
     "target": "ES6",
@@ -8,8 +9,7 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "src/**/*",
-    "PR_Dectector/src/**/*"
+    "src/**/*"
   ],
   "exclude": ["node_modules"]
 }

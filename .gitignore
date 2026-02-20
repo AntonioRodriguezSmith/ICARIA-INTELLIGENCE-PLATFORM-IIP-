@@ -35,6 +35,8 @@ __pycache__/
 !CHANGELOG.md
 !docs/**
 
+# Asegurarse de que todos los tsconfig.json sí se suban
+!**/tsconfig.json
 # Ignorar archivos de conversación eliminados
 fri_feb_20_2026_crear_un_detector_de_texto_en.md
 fri_feb_20_2026_crear_un_detector_de_texto_en.zip
