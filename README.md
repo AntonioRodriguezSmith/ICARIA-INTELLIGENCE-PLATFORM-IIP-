@@ -84,4 +84,37 @@ ICARIA-INTELLIGENCE-PLATFORM/PR_Detector
 
 ---
 
+
+---
+
+## Pruebas automáticas (Testing)
+
+El proyecto utiliza [Mocha](https://mochajs.org/) como framework de testing para Node.js.
+
+### Ejecutar los tests
+
+1. Asegúrate de tener las dependencias instaladas:
+    ```bash
+    npm install
+    ```
+2. Ejecuta todos los tests:
+    ```bash
+    npm test
+    ```
+
+Los tests se encuentran en la carpeta `/test` y cualquier archivo con extensión `.test.js` será ejecutado automáticamente.
+
+Ejemplo de test:
+```js
+// test/example.test.js
+const assert = require('assert');
+describe('Demo Test', function() {
+   it('should return true', function() {
+      assert.strictEqual(true, true);
+   });
+});
+```
+
+---
+
 **Contacto:** icaria-platform@dxc.com
