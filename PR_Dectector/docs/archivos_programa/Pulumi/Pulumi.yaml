@@ -1,0 +1,3 @@
+name: icaria-pulumi
+runtime: python
+description: Infraestructura como código con Pulumi en Python

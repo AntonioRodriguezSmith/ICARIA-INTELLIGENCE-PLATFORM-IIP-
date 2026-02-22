@@ -1,9 +1,49 @@
+# Cambios recientes y roadmap (20/02/2026)
+
+## Avances
+- Integración completa de MCP Server, SonarQube, Grafana, Prometheus, Redis, RabbitMQ, ELK, Terraform, Pulumi y Nginx.
+- Documentación modular actualizada para cada herramienta.
+- Configuración priorizada de tareas pendientes en memoria_markdown/TAREAS_PENDIENTES.md.
+
+## Tareas prioritarias
+- Automatizar credenciales Git/GitHub
+- Integrar tests automáticos MCP Server
+- Validar visualización de logs en Kibana
+- Ampliar buenas prácticas Terraform
+
+## Mejoras y documentación
+- Validación de specs OpenAPI/Swagger
+- Documentación SonarQube (local y CI/CD)
+- Flujos de pruebas de APIs (Postman, pytest)
+- Flujos de despliegue (Docker, GitHub Actions)
+- Gestión de credenciales y variables de entorno (.env, Vault)
+- Auditoría y seguridad
+- Revisión de configuración MCP Server en Docker
+- Estructura de memoria persistente
+- Monitoreo (Grafana, Prometheus)
+- Gestión de logs y trazabilidad (ELK, Prometheus)
+- Infraestructura como código (Terraform/Pulumi)
+- Proxy/reverse proxy (Nginx/Traefik)
 # Changelog
 
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
+
+## [2.3.1] - 2026-02-22
+
+### Added
+- Documentación ejecutiva y técnica actualizada (README, PRUEBAS_Y_CONFIGURACION.md).
+- Checklist de pruebas automatizadas y prioridades por programa.
+- Pie de página ejecutivo DXC & Sabadell con responsables y contacto.
+
+### Changed
+- Actualización de prioridades: automatización de credenciales, tests MCP Server, validación Kibana, buenas prácticas Terraform.
+- Revisión de memoria persistente y checklist centralizado.
+
+### Fixed
+- Corrección de errores menores en scripts de automatización y documentación.
 
 ## [2.3.0] - 2026-02-20
 
@@ -95,6 +135,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ### Eliminado
 - Ningún cambio eliminado en esta versión.
 
+[2.3.1]: https://github.com/AntonioRodriguezSmith/icaria-intelligence-platform/compare/v2.3.0...v2.3.1
 [2.3.0]: https://github.com/AntonioRodriguezSmith/icaria-intelligence-platform/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/AntonioRodriguezSmith/icaria-intelligence-platform/compare/v2.0.0...v2.2.0
 [2.0.0]: https://github.com/AntonioRodriguezSmith/icaria-intelligence-platform/compare/v1.1.0...v2.0.0

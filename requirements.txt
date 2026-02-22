@@ -7,3 +7,5 @@ requests
 flask
 sqlalchemy
 numpy
+fastapi
+uvicorn
