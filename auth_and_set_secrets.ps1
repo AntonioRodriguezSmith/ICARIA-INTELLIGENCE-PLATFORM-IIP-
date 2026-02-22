@@ -1,4 +1,33 @@
-﻿Write-Host "Autenticación GH CLI (se abrirá el navegador)..."
+﻿# Script para automatizar generación y verificación de credenciales Git/GitHub
+# Uso: Ejecutar en PowerShell
+
+# Solicitar usuario y token
+$GitUser = Read-Host "Introduce tu usuario de GitHub"
+$GitToken = Read-Host "Introduce tu token de acceso (PAT)"
+
+# Configurar usuario global
+Write-Host "Configurando usuario global de Git..."
+git config --global user.name "$GitUser"
+git config --global user.email "$GitUser@dominio.com"
+
+# Guardar credenciales en .env
+$envPath = "PR_Dectector/docs/archivos_programa/MCPServer/.env"
+$envContent = "GIT_USER=$GitUser`nGIT_TOKEN=$GitToken"
+Set-Content -Path $envPath -Value $envContent
+
+# Verificar acceso a GitHub
+Write-Host "Verificando acceso a GitHub..."
+$test = git ls-remote https://$GitUser:$GitToken@github.com/AntonioRodriguezSmith/ICARIA-INTELLIGENCE-PLATFORM-IIP-.git
+if ($test) {
+    Write-Host "Acceso a GitHub verificado correctamente."
+} else {
+    Write-Host "Error: No se pudo verificar el acceso a GitHub. Revisa el usuario o token."
+}
+
+# Opcional: Guardar en Vault
+# (Descomentar si tienes Vault instalado y configurado)
+# vault kv put secret/git user=$GitUser token=$GitToken
+Write-Host "Autenticación GH CLI (se abrirá el navegador)..."
 try {
     gh auth login --web
     if ($LASTEXITCODE -ne 0) { throw "gh auth login falló." }

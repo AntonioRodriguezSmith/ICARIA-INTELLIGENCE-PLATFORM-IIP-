@@ -24,5 +24,5 @@ COPY . /app/
 # Expose port
 EXPOSE 5000
 
-# Command to run the application
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+# Command to run the FastAPI application
+CMD ["uvicorn", "PR_Dectector.docs.archivos_programa.MCPServer.main:app", "--host=0.0.0.0", "--port=5000"]

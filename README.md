@@ -1,3 +1,15 @@
+# ICARIA Intelligence Platform (ICC)
+
+- Custom Apps Banc Sabadell Testing
+  - Manuel Gil  
+    manuel.gil@dxc.com
+
+- Desarrollador jefe
+  - Antonio Rodriguez Smith  
+    a.rodriguezsmith@dxc.com
+
+---
+
 # ICARIA Intelligence Platform
 
 **Repositorio confidencial para Banco Sabadell S.A.**  
@@ -14,27 +26,51 @@ ICARIA Intelligence Platform es una solución avanzada para el análisis y valid
 
 ## Estado del Proyecto
 
-- **Versión Actual:** 2.3.0
+- **Versión Actual:** 2.3.1
 - **Estado:** Activo, confidencial, en desarrollo continuo.
 
 ---
 
-## ✅ Lista de Tareas Pendientes
+## Principales Tecnologías y Herramientas
 
-- [x] Instalar dependencias de Python desde `requirements.txt`
-- [x] Configurar el entorno virtual para Python
-- [x] Instalar y configurar pre-commit con `.pre-commit-config.yaml`
-- [ ] Configurar automatización para subidas al repositorio
-- [ ] Revisar nuevos programas para implementar
-- [ ] Implementar cambios después de organizar el repositorio
-- [ ] Validar la configuración de las herramientas de análisis estático (Black, isort, pylint)
-- [ ] Actualizar la documentación técnica en `/docs` para reflejar los cambios recientes
-- [ ] Revisar y probar los scripts en `scripts/` para asegurar su funcionalidad
-- [ ] Documentar cualquier problema o decisión en `.memoria/conversaciones.json`
+- Visual Studio Code (IDE principal)
+- GitHub Copilot (IA para autocompletado y generación de código, basado en GPT-4.1)
+- GitHub Spaces (colaboración, revisión y memoria persistente)
+- Docker Desktop (contenedores y despliegue)
+- MCP Server (motor de reglas y validación)
+- Node.js/NPM (scripts y utilidades)
+- Postman (testing de APIs)
+- GitHub Actions (automatización CI/CD)
+- Terraform (infraestructura como código)
+- SonarQube (análisis estático)
+- Python (scripts, automatización y análisis)
+- Bootstrap, jQuery, Chart.js, DataTables, jsPDF (frontend y visualización)
 
 ---
 
-## 🗂 Estructura del Proyecto
+## Flujo Técnico Integrado
+
+1. Preparación del entorno:
+   - VS Code + extensiones (Docker, Remote Containers, Copilot, GitHub Spaces)
+   - Configuración de entorno virtual Python y dependencias
+2. Autenticación y conexión:
+   - GitHub para control de versiones, CI/CD y autenticación Copilot
+3. Desarrollo y automatización:
+   - Copilot genera funciones, scripts, workflows, comandos Docker/Terraform
+   - Colaboración en GitHub Space, integración de memoria persistente y KPIs
+   - Ejecución de scripts, validación de endpoints, monitoreo de métricas
+
+---
+
+## Memoria Persistente y Auditoría
+
+- `.memoria/conversaciones.json`: registro de decisiones, problemas, evolución técnica
+- `memoria_markdown/`: onboarding, control de calidad, compatibilidad, ejemplos y test unitarios
+- KPIs, reglas de negocio, scripts y automatismos documentados
+
+---
+
+## Estructura del Proyecto
 
 ```
 ICARIA-INTELLIGENCE-PLATFORM/PR_Detector
@@ -68,7 +104,7 @@ ICARIA-INTELLIGENCE-PLATFORM/PR_Detector
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 1. **Requisitos:** Navegador moderno; librerías incluidas vía CDN (Bootstrap, jQuery, Chart.js, DataTables, jsPDF).
 2. **Instalación:**
@@ -81,6 +117,79 @@ ICARIA-INTELLIGENCE-PLATFORM/PR_Detector
    - Sube el archivo de casos y observa análisis, scoring y brechas.
    - Usa arquetipos predefinidos o crea los tuyos.
    - Exporta y documenta resultados.
+
+---
+
+## Requisitos y dependencias
+
+### Python
+- black
+- isort
+- pytest
+- pandas
+- pyyaml
+- requests
+- flask
+- sqlalchemy
+- numpy
+- fastapi
+- uvicorn
+
+Instalación:
+```bash
+pip install -r requirements.txt
+```
+
+### Node.js
+- express
+- dotenv
+- typescript
+
+Instalación:
+```bash
+npm install
+```
+
+### Docker
+- Dockerfile y docker-compose.yml para despliegue de servicios
+
+### CI/CD y automatización
+- Workflows en .github/workflows/
+- Scripts Python para automatización y análisis
+
+### Variables de entorno
+- Crear archivo `.env` para credenciales y configuración sensible
+
+---
+
+## Contacto y Soporte
+
+- Email: icaria-platform@dxc.com
+- Responsable: Antonio Rodriguez Smith (DXC Technology)
+- Documentación técnica: `/docs`, `/memoria_markdown`, README global
+
+---
+
+## Créditos y Branding
+
+- Proyecto desarrollado por DXC Technology para Banco Sabadell
+- Branding corporativo: Banco Sabadell (#009ee3), DXC Technology
+- Presentación ejecutiva disponible en HTML multi-pantalla (ver `presentacion_icaria_multi.html`)
+
+---
+
+## Notas Adicionales
+
+- El repositorio está en desarrollo activo y confidencial.
+- Todas las tareas técnicas y de documentación están actualizadas a 2026.
+- Para integración con IA externa, consultar ejemplos en `/docs/archivos_programa/CopilotAgent/README.md`.
+- Para visualización ejecutiva, usar la presentación HTML multi-screen.
+
+---
+
+## Pie de página ejecutivo DXC & SABADELL
+
+DXC Technology & Banco Sabadell: colaboración en innovación, testing y desarrollo de soluciones bancarias avanzadas. ICC liderado por Antonio Rodriguez Smith (a.rodriguezsmith@dxc.com) y Manuel Gil (manuel.gil@dxc.com).
 
 ---
 
