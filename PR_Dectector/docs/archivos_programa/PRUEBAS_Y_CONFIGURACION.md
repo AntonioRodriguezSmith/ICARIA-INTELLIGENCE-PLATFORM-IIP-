@@ -2,7 +2,7 @@
 
 ```mermaid
 graph LR
-	A[Automatizar credenciales Git/GitHub] --> B[Configurar infraestructura (Terraform/Pulumi, Vault, .env)] --> C[Desplegar servicios base en Docker] --> D[Validar arranque y configuración de contenedores] --> E[Integrar tests automáticos MCP Server] --> F[Validar visualización de logs en Kibana] --> G[Pruebas de APIs (Postman, pytest)] --> H[Validación de specs OpenAPI/Swagger] --> I[Documentación SonarQube (local y CI/CD)] --> J[Auditoría y seguridad (SonarQube, Vault, GitHub Actions)] --> K[Monitoreo (Grafana, Prometheus)] --> L[Gestión de logs y trazabilidad (ELK, Prometheus)] --> M[Estructura de memoria persistente] --> N[Proxy/reverse proxy (Nginx/Traefik)]
+	A[Automatizar credenciales Git/GitHub] --> B[Configurar infraestructura (Terraform/Pulumi, Vault, .env)] --> C[Desplegar servicios base en Docker] --> D[Validar arranque y configuración de contenedores] --> E[Integrar tests automáticos MCP Server] --> F[Validar visualización de logs en Kibana] --> G[Pruebas de APIs (Postman, pytest)] --> H[Validación de specs OpenAPI/Swagger] --> I[Documentación SonarQube (local y CI/CD)] --> J[Auditoría y seguridad (SonarQube, Vault, GitHub Actions)] --> K[Monitoreo (Grafana, Prometheus)] --> L[Gestión de logs y trazabilidad (ELK, Prometheus)] --> M[Estructura de memoria persistence] --> N[Proxy/reverse proxy (Nginx/Traefik)]
 ```
 
 ---
@@ -12,14 +12,14 @@ graph LR
 Interactuar ágilmente con Copilot en un Space, pasar archivos, revisar peticiones, marcar condiciones modeladas/no modeladas y devolver resultados junto a KPIs.
 
 ### Requisitos
-- Visual Studio Code con extensiones: Copilot, GitHub Spaces, Docker.
+- Visual Studio Code con extensions: Copilot, GitHub Spaces, Docker.
 - Acceso y autenticación a GitHub Space.
-- Configuración del Agent Copilot en el Space (memoria persistente, archivos YAML/JSON).
+- Configuración del Agent Copilot en el Space (memoria persistence, archivos YAML/JSON).
 - Sincronización del repositorio local con el Space.
 - Scripts de automatización para revisión de archivos, condiciones y KPIs.
 
 ### Pasos
-1. Instalar y configurar VS Code con las extensiones necesarias.
+1. Instalar y configurar VS Code con las extensions necesarias.
 2. Autenticarse y conectar VS Code con el Space y el Agent Copilot.
 3. Subir archivos al Space/repositorio para revisión.
 4. Ejecutar scripts del Agent Copilot para:
@@ -27,7 +27,7 @@ Interactuar ágilmente con Copilot en un Space, pasar archivos, revisar peticion
 	- Marcar condiciones modeladas.
 	- Interpretar condiciones no modeladas.
 	- Devolver resultados y KPIs.
-5. Visualizar y documentar los resultados en la memoria persistente y archivos de KPIs.
+5. Visualizar y documentar los resultados en la memoria persistence y archivos de KPIs.
 
 ### Automatización recomendada
 - Scripts Python para análisis de archivos, condiciones y generación de KPIs.
